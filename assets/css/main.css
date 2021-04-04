@@ -1702,42 +1702,27 @@ input, select, textarea {
 /* /////////////////////////////////////////////////////////////////// */
 
 
-#intro nav2 ul {
-	display: -moz-flex;
-	display: -webkit-flex;
-	display: -ms-flex;
-	display: flex;
-	margin-bottom: 0;
-	list-style: none;
-	padding-left: 0;
-	border: solid 1px #ffffff;
-	border-radius: 4px;
-	overflow:hidden;
-}
 
-	#intro nav2 ul li {
-		padding-left: 0;
-		border-left: solid 1px #ffffff;
-	}
-
-		#intro nav2 ul li:first-child {
-			border-left: 0;
-		}
 
 
 	#intro nav2 a{
 
-			display: block;
+			
 			position:absolute;
 			padding: 5px;
 			line-height: 2.75rem;
 			text-align: center;
 			text-transform: uppercase;
-			letter-spacing: 0.2rem;
-			font-size: 0.8rem;
+			letter-spacing: 0.1rem;
+			font-size: 18px;
+		
 			border-bottom: 0;
 			overflow:hidden;
 			margin-top:-45px;
+			border: solid 1px #ffffff;
+			
+		
+		
 
 	}
 
@@ -1748,52 +1733,13 @@ input, select, textarea {
 #intro nav2 a:active{
 	background-color: rgba(255, 255, 255, 0.175);
 }
-#intro nav2.use-middle:after{
-	content: '';
-	display: block;
-	position: absolute;
-	top: 0;
-	left: calc(50% - 1px);
-	width: 1px;
-	height: 100%;
-	background: #ffffff;
-}
 
-		#intro nav2 ul li a {
-			display: block;
-			min-width: 6rem;
-			height: 2.75rem;
-			line-height: 2.75rem;
-			text-align: center;
-			text-transform: uppercase;
-			letter-spacing: 0.2rem;
-			font-size: 0.8rem;
-			border-bottom: 0;
-		}
 
-			#intro nav2 ul li a:hover {
-				background-color: rgba(255, 255, 255, 0.075);
-			}
 
-			#intro nav2 ul li a:active {
-				background-color: rgba(255, 255, 255, 0.175);
-			}
 
-#intro nav2.use-middle:after {
-	content: '';
-	display: block;
-	position: absolute;
-	top: 0;
-	left: calc(50% - 1px);
-	width: 1px;
-	height: 100%;
-	background: #ffffff;
-}
+	
 
-#intro nav2.use-middle ul li.is-middle {
-	border-left: 0;
 
-}
 
 .CentreImg{
 	float: left;
@@ -1821,9 +1767,31 @@ position:relative;
 	border: 1px #ffffff;
 	width: 18.5%;
 	margin-right: 10px;
+
 	
  }
  .teamImg p{
 	float:none;
 	position: absolute;
  }
+
+ .teamImg2{
+	position:relative;
+	
+	}
+	
+	 .teamImg2 img {
+		position:relative;
+		display:block;
+		float: left;
+		color:white;
+		border: 1px #ffffff;
+		max-width: 30rem;
+		margin-right: 10px;
+	
+		
+	 }
+	 .teamImg2 p{
+		float:none;
+		position: absolute;
+	 }
